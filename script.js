@@ -67,4 +67,43 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-/* توجه: بابل‌های پس‌زمینه و کدهای canvas حذف شدند */
+/* --- فقط اضافه‌شده: حباب‌های پس‌زمینه همانند نسخه قبل --- */
+(function(){
+  const canvas = document.getElementById('bg-bubbles');
+  if(!canvas) return;
+  const ctx = canvas.getContext('2d');
+  let W, H, bubbles = [];
+
+  function resize(){
+    W = canvas.width = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+    const COUNT = Math.min(50, Math.floor(W/30));
+    bubbles = Array.from({length: COUNT}, () => ({
+      x: Math.random()*W,
+      y: Math.random()*H,
+      r: Math.random()*5 + 2,           // اندازه حباب‌ها
+      s: Math.random()*0.5 + 0.15,      // سرعت عمودی
+      a: Math.random()*360              // زاویه برای موج سینوسی
+    }));
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    for(const b of bubbles){
+      b.y -= b.s * 0.55;                // همون سرعت قبلی
+      b.x += Math.sin((b.a+=0.008))*0.2; // نوسان افقی نرم
+      if(b.y < -10){ b.y = H + 10; b.x = Math.random()*W; }
+      const grad = ctx.createRadialGradient(b.x, b.y, 0, b.x, b.y, b.r*2.2);
+      grad.addColorStop(0, 'rgba(110,201,255,0.16)');
+      grad.addColorStop(1, 'rgba(184,136,255,0.03)');
+      ctx.beginPath();
+      ctx.fillStyle = grad;
+      ctx.arc(b.x, b.y, b.r*2, 0, Math.PI*2);
+      ctx.fill();
+    }
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
