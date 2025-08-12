@@ -1,117 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Soheil Salmani — Data Engineer | Python | Data Pipelines & Analytics" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Soheil Salmani — Resume</title>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
+  <meta name="description" content="Soheil Salmani - Data Engineer | Python | Data Pipelines & Analytics" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Background bubbles canvas -->
   <canvas id="bg-bubbles" aria-hidden="true"></canvas>
 
-  <header class="topbar container">
+  <header class="topbar glass">
     <div class="brand">
-      <div class="brand-dot"></div>
-      <div class="brand-lines">
-        <strong>Soheil</strong>
-        <span>Salmani</span>
+      <span class="dot"></span>
+      <div class="brand-text">
+        <h1>Soheil Salmani</h1>
+        <p>Data Engineer · Python</p>
       </div>
-      <small class="role-chip">Data Engineer · Python</small>
     </div>
-
-    <nav class="actions">
-      <a class="btn btn-neutral glow" href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn btn-neutral glow" href="https://github.com/SoheilGtex" target="_blank" rel="noopener">GitHub</a>
-      <a class="btn btn-neutral glow" id="btn-download" href="Resume.pdf" download>Download PDF</a>
-      <button class="btn btn-primary glow" id="btn-theme" aria-pressed="false">Toggle Theme</button>
-    </nav>
+    <div class="actions">
+      <a class="btn btn-neutral" href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-neutral" href="https://github.com/SoheilGtex" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-neutral" id="btn-download" href="Resume.pdf" download>Download PDF</a>
+      <button class="btn btn-primary" id="btn-theme">Toggle Theme</button>
+    </div>
   </header>
 
-  <main class="container">
+  <main>
     <!-- HERO -->
-    <section class="card hero glass reveal">
-      <h1 class="title">Soheil Salmani</h1>
-      <h2 id="typed-subtitle" class="subtitle" aria-live="polite">
-        <!-- text will be typed by JS -->
-      </h2>
-
+    <section class="card hero glass" data-aos="fade-up" data-aos-offset="60">
+      <h2 class="hero-title">Soheil Salmani</h2>
+      <p class="subtitle"><span id="typing"></span></p>
       <p class="lead">
-        Data engineer and Python developer focused on data acquisition, cleaning, and analytics—primarily
-        in financial-data and BI workflows. Experienced in building efficient ETL pipelines, structuring large datasets,
-        and collaborating with analysts to deliver dashboards and reports. Open to remote roles and relocation (Germany / Ireland).
+        Data engineer and Python developer focused on data acquisition, cleaning, and analytics—primarily in financial-data and BI workflows. Experienced in building efficient ETL pipelines, structuring large datasets, and collaborating with analysts to deliver dashboards and reports. Open to remote roles and relocation (Germany / Ireland).
       </p>
-
       <div class="contact-pills">
-        <a class="pill glow" href="mailto:Soheilsalmanisafarpour@gmail.com" title="Email">✉ Email</a>
-        <a class="pill glow" href="tel:+989197547949" title="Phone">☎ +98 919 754 7949</a>
-        <span class="pill glow" title="Location">📍 Tehran, Iran</span>
+        <a class="pill" href="mailto:Soheilsalmanisafarpour@gmail.com">✉ Email</a>
+        <a class="pill" href="tel:+989197547949">☎ +98 919 754 7949</a>
+        <a class="pill" href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank">LinkedIn</a>
+        <span class="pill">📍 Tehran, Iran</span>
       </div>
     </section>
 
-    <!-- SKILLS -->
-    <section class="grid-2">
-      <div class="card glass reveal">
-        <h3>Key Skills</h3>
-        <div class="chips">
-          <span class="chip glow skill">Python</span>
-          <span class="chip glow skill">SQL</span>
-          <span class="chip glow skill">Git</span>
-          <span class="chip glow skill">Bash</span>
-          <span class="chip glow skill">Linux</span>
-          <span class="chip glow skill">Pandas</span>
-          <span class="chip glow skill">NumPy</span>
-          <span class="chip glow skill">Requests</span>
-          <span class="chip glow skill">Matplotlib</span>
-          <span class="chip glow skill">Seaborn</span>
-          <span class="chip glow skill">Scikit-Learn</span>
-          <span class="chip glow skill">ETL Pipelines</span>
-          <span class="chip glow skill">Data Cleaning & Wrangling</span>
-          <span class="chip glow skill">Data Visualization</span>
-          <span class="chip glow skill">Business Intelligence (BI)</span>
-          <span class="chip glow skill">EDA</span>
-          <span class="chip glow skill">Mathematics</span>
-          <span class="chip glow skill">Troubleshooting</span>
+    <!-- SKILLS (3 گروه) -->
+    <section class="card glass" data-aos="fade-up">
+      <h3>Key Skills</h3>
+      <div class="skills-grid">
+        <div class="skills-col">
+          <h4>Programming & Data</h4>
+          <ul class="chips">
+            <li>Python</li><li>SQL</li><li>Git</li><li>Bash</li><li>Linux</li>
+            <li>Pandas</li><li>NumPy</li><li>Requests</li>
+            <li>Matplotlib</li><li>Seaborn</li><li>Scikit-Learn</li>
+          </ul>
         </div>
-      </div>
-
-      <div class="card glass reveal">
-        <h3>Interpersonal Skills</h3>
-        <div class="chips">
-          <span class="chip glow skill">Problem Solving</span>
-          <span class="chip glow skill">Self-Learning</span>
-          <span class="chip glow skill">Teamwork</span>
-          <span class="chip glow skill">Technical Leadership</span>
-          <span class="chip glow skill">Strategy</span>
-          <span class="chip glow skill">Public Speaking</span>
+        <div class="skills-col">
+          <h4>Data Workflows & Tools</h4>
+          <ul class="chips">
+            <li>ETL Pipelines</li><li>Data Cleaning & Wrangling</li>
+            <li>Data Visualization</li><li>Business Intelligence (BI)</li>
+            <li>EDA</li><li>Mathematics</li>
+          </ul>
         </div>
-
-        <h3 style="margin-top:18px">Languages</h3>
-        <div class="chips">
-          <span class="chip glow">English — Professional Working</span>
-          <span class="chip glow">German — Limited Working</span>
-          <span class="chip glow">Persian — Native/Bilingual</span>
+        <div class="skills-col">
+          <h4>Interpersonal & Leadership</h4>
+          <ul class="chips">
+            <li>Problem Solving</li><li>Teamwork</li>
+            <li>Technical Leadership</li><li>Strategy</li>
+            <li>Public Speaking</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <!-- EXPERIENCE with timeline -->
-    <section class="card glass reveal">
+    <!-- EXPERIENCE (Timeline) -->
+    <section class="card glass" data-aos="fade-up">
       <h3>Experience</h3>
-
       <div class="timeline">
-        <!-- Item -->
-        <div class="t-item">
-          <span class="t-dot" aria-hidden="true"></span>
+        <div class="t-item" data-aos="fade-right">
+          <div class="t-dot"></div>
           <div class="t-content">
             <h4>Data Engineer — Fara-Ro</h4>
-            <div class="meta">Dec 2024 – Present · Tehran, Iran</div>
+            <span class="t-meta">Dec 2024 – Present · Tehran, Iran</span>
             <ul>
               <li>Collected, cleaned, and structured financial data (primarily stock-market sources).</li>
               <li>Designed efficient data acquisition processes for faster, more accurate updates.</li>
@@ -120,13 +93,11 @@
             </ul>
           </div>
         </div>
-
-        <!-- Item -->
-        <div class="t-item">
-          <span class="t-dot" aria-hidden="true"></span>
+        <div class="t-item" data-aos="fade-right" data-aos-delay="60">
+          <div class="t-dot"></div>
           <div class="t-content">
             <h4>Technical Manager — Asansafar Iranian</h4>
-            <div class="meta">Aug 2023 – Present · Tehran Province, Iran</div>
+            <span class="t-meta">Aug 2023 – Present · Tehran Province, Iran</span>
             <ul>
               <li>Built and led a cross-functional tech team (web & mobile).</li>
               <li>Defined the technical roadmap aligned with business objectives.</li>
@@ -134,29 +105,25 @@
             </ul>
           </div>
         </div>
-
-        <!-- Item -->
-        <div class="t-item">
-          <span class="t-dot" aria-hidden="true"></span>
+        <div class="t-item" data-aos="fade-right" data-aos-delay="120">
+          <div class="t-dot"></div>
           <div class="t-content">
             <h4>Python Developer — Asansafar Iranian</h4>
-            <div class="meta">Jun 2023 – Aug 2023 · Tehran Province, Iran</div>
+            <span class="t-meta">Jun 2023 – Aug 2023 · Tehran Province, Iran</span>
             <ul>
               <li>Refactored legacy Python backend for scalability & maintainability.</li>
               <li>Implemented core business logic and prepared the system for productization.</li>
             </ul>
           </div>
         </div>
-
-        <!-- Item -->
-        <div class="t-item">
-          <span class="t-dot" aria-hidden="true"></span>
+        <div class="t-item" data-aos="fade-right" data-aos-delay="180">
+          <div class="t-dot"></div>
           <div class="t-content">
             <h4>Freelance Programmer — Self-Employed</h4>
-            <div class="meta">Mar 2020 – Present · Tehran, Iran</div>
+            <span class="t-meta">Mar 2020 – Present · Tehran, Iran</span>
             <ul>
               <li>Built bots & automation tools in Python; Project Euler & Natas challenges.</li>
-              <li>Voice Cloning project recognized by Pardis Technology Park (media coverage).</li>
+              <li>Voice Cloning project recognized by Pardis Technology Park.</li>
             </ul>
           </div>
         </div>
@@ -164,96 +131,76 @@
     </section>
 
     <!-- PROJECTS -->
-    <section class="card glass reveal">
+    <section class="card glass" data-aos="fade-up" id="projects">
       <h3>Projects</h3>
-      <div class="projects">
-        <div class="project bubble">
+      <div class="grid">
+        <div class="project bubble" data-aos="zoom-in" data-aos-delay="50">
           <h4>Voice Cloning (SV2TTS, Python)</h4>
-          <p>Presented at Pardis Technology Park; showcased at Crisis Management HQ with attendees from national officials and UN. Media: IRIB Channel 1 (Jan 2023) & IRIB Nasim (Exir Festival, 2024).</p>
+          <p>Presented at Pardis Technology Park; showcased at the Crisis Management Headquarters with UN representatives. Media: IRIB Channel 1 (Jan 2023) & IRIB Nasim (Exir Festival, 2024).</p>
         </div>
-        <div class="project bubble">
+        <div class="project bubble" data-aos="zoom-in" data-aos-delay="100">
           <h4>Methane Gas Detection (Python)</h4>
-          <p>Prototype using sensor thresholds to detect hazardous levels; presented in Sampad programming competitions.</p>
+          <p>Sensor-based prototype for methane hazard detection using threshold logic; presented in Sampad programming competitions.</p>
         </div>
-        <div class="project bubble">
+        <div class="project bubble" data-aos="zoom-in" data-aos-delay="150">
           <h4>Asansafar — Smart Urban Mobility</h4>
-          <p>Defined technical direction and prepared MVP for service operations; defended at Tehran Municipality panel (Oct 2023).</p>
+          <p>Defined technical direction; prepared MVP for service operations; defended at Tehran Municipality panel (Oct 2023).</p>
         </div>
       </div>
     </section>
 
     <!-- EDUCATION -->
-    <section class="grid-2">
-      <div class="card glass reveal">
-        <h3>Education</h3>
-        <ul class="simple">
-          <li>
-            <strong>B.Sc. in Mathematics and Applications</strong> — Kharazmi University (Oct 2024 – Present)  
-            <div class="muted">Core Council Member — Mathematics Scientific Association (1 of 7). Member — AI Association.</div>
-          </li>
-          <li>
-            <strong>Diploma in Mathematics & Physics</strong> — Sampad (Sep 2018 – Jul 2024)
-          </li>
-        </ul>
-      </div>
-
-      <div class="card glass reveal">
-        <h3>Licenses & Certifications</h3>
-        <ul class="simple two-col">
-          <li>CS50x Puzzle Day 2025 — Harvard</li>
-          <li>CS50x Puzzle Day 2024 — Harvard</li>
-          <li>Data Analysis with Python — freeCodeCamp</li>
-          <li>Machine Learning with Python — freeCodeCamp</li>
-          <li>Scientific Computing with Python — freeCodeCamp</li>
-          <li>CS50x — Harvard/CS50</li>
-          <li>Microsoft Learn (SQL, Problem Solving)</li>
-          <li>Git: Become an Expert in Git & GitHub — Udemy</li>
-          <li>Intro to Python — Udemy</li>
-          <li>Introduction to Python Programming — Udemy</li>
-          <li>Git Started with GitHub — Udemy</li>
-          <li>Python — Mimo</li>
-          <li>SQL — Mimo</li>
-          <li>LOGIC — Raymand Robot</li>
-          <li>KAIROBOT 3 — Raymand Robot</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- HONORS -->
-    <section class="card glass reveal">
-      <h3>Honors & Awards</h3>
-      <ul class="simple">
-        <li>ICT Challenge 9 — Sharif University of Technology (Sep 2024)</li>
-        <li>Innovative Research Project — Sharif University of Technology, Exir Festival (Aug 2024)</li>
-        <li>Top Young Inventor & Researcher (again) — Pardis Technology Park (Jan 2024)</li>
-        <li>Project Defense — Tehran Municipality (Oct 2023)</li>
-        <li>Best Research Project — Crisis Management Headquarters (Feb 2023)</li>
-        <li>Top Young Inventor & Researcher — Pardis Technology Park; IRIB Channel 1 (Jan 2023)</li>
-        <li>Best Programmer — Ministry of Education (May 2022)</li>
-        <li>Best Programming Project — Sampad Cultural & Artistic Competitions (Apr 2022 & Apr 2023)</li>
+    <section class="card glass" data-aos="fade-up">
+      <h3>Education</h3>
+      <ul class="bullets">
+        <li><strong>B.Sc. in Mathematics and Applications</strong> — Kharazmi University (Oct 2024 – Present). Core Council Member of the Mathematics Scientific Association; Member of the AI Society.</li>
+        <li><strong>Diploma in Mathematics & Physics</strong> — Sampad (Sep 2018 – Jul 2024).</li>
       </ul>
     </section>
 
-    <!-- ORG & LANG + CTA -->
-    <section class="card glass reveal">
-      <h3>Organizations & Languages</h3>
-      <p>
-        <strong>Organizations:</strong> Mathematics Scientific Association (Core Council), AI Association — Kharazmi University.
-      </p>
-      <p>
-        <strong>Languages:</strong> English (Professional Working), German (Limited Working), Persian (Native/Bilingual).
-      </p>
+    <!-- LICENSES -->
+    <section class="card glass" data-aos="fade-up">
+      <h3>Licenses & Certifications</h3>
+      <ul class="bullets two-col">
+        <li>CS50x Puzzle Day 2025 — Harvard University (Apr 2025)</li>
+        <li>CS50x Puzzle Day 2024 — Harvard University (Apr 2024)</li>
+        <li>Data Analysis with Python — freeCodeCamp (May 2023)</li>
+        <li>Machine Learning with Python — freeCodeCamp (May 2023)</li>
+        <li>Scientific Computing with Python — freeCodeCamp (Apr 2023)</li>
+        <li>CS50x Puzzle Day 2023 — Harvard University (Mar 2023)</li>
+        <li>CS50x — Harvard/CS50 (Dec 2022)</li>
+        <li>Microsoft Learn (Feb 2022)</li>
+        <li>Git: Become an Expert in Git & GitHub — Udemy (May 2023)</li>
+        <li>Intro to Python — Udemy (May 2023)</li>
+        <li>Introduction to Python Programming — Udemy (May 2023)</li>
+        <li>Git Started with GitHub — Udemy (May 2023)</li>
+        <li>Python — Mimo (Apr 2020)</li>
+        <li>SQL — Mimo (Apr 2020)</li>
+        <li>LOGIC — Raymand Robot (Jun 2018)</li>
+        <li>KAIROBOT 3 — Raymand Robot (Dec 2017)</li>
+      </ul>
+    </section>
 
+    <!-- ORGS & LANGS -->
+    <section class="card glass" data-aos="fade-up">
+      <h3>Organizations & Languages</h3>
+      <p><strong>Organizations:</strong> Mathematics Scientific Association (Core Council), AI Association (Member) — Kharazmi University.</p>
+      <div class="lang-pills">
+        <span class="pill">English — Professional Working</span>
+        <span class="pill">German — Limited Working</span>
+        <span class="pill">Persian — Native/Bilingual</span>
+      </div>
       <div class="cta">
-        <a class="btn btn-primary glow" href="mailto:Soheilsalmanisafarpour@gmail.com">Contact Me</a>
+        <a class="btn btn-primary" href="mailto:Soheilsalmanisafarpour@gmail.com">Contact Me</a>
+        <a class="btn btn-neutral" href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank">LinkedIn</a>
+        <a class="btn btn-neutral" href="https://github.com/SoheilGtex" target="_blank">GitHub</a>
       </div>
     </section>
   </main>
 
-  <footer class="footer container">
-    <small>© <span id="year"></span> Soheil Salmani</small>
-  </footer>
+  <footer class="footer">© <span id="year"></span> Soheil Salmani</footer>
 
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
