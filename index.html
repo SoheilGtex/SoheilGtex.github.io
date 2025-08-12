@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- پارالاکس/حباب‌ها -->
   <canvas id="bg-bubbles" aria-hidden="true"></canvas>
 
   <header class="topbar glass">
@@ -23,47 +22,65 @@
       </div>
     </div>
     <div class="actions">
+      <a class="btn btn-neutral" href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-neutral" href="https://github.com/SoheilGtex" target="_blank" rel="noopener">GitHub</a>
       <a class="btn btn-neutral" id="btn-download" href="Resume.pdf" download>Download PDF</a>
       <button class="btn btn-primary" id="btn-theme">Toggle Theme</button>
     </div>
   </header>
 
   <main>
-    <!-- Hero -->
+    <!-- HERO -->
     <section class="card hero glass" data-aos="fade-up" data-aos-offset="60">
       <h2 class="hero-title">Soheil Salmani</h2>
-      <p class="subtitle">Data Engineer | Python | Data Pipelines &amp; Analytics</p>
+      <p class="subtitle"><span id="typing"></span></p>
       <p class="lead">
         Data engineer and Python developer focused on data acquisition, cleaning, and analytics—primarily in financial-data and BI workflows. Experienced in building efficient ETL pipelines, structuring large datasets, and collaborating with analysts to deliver dashboards and reports. Open to remote roles and relocation (Germany / Ireland).
       </p>
       <div class="contact-pills">
         <a class="pill" href="mailto:Soheilsalmanisafarpour@gmail.com">✉ Email</a>
         <a class="pill" href="tel:+989197547949">☎ +98 919 754 7949</a>
-        <a class="pill" href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank" rel="noopener">in/ soheil–salmani</a>
+        <a class="pill" href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank">LinkedIn</a>
         <span class="pill">📍 Tehran, Iran</span>
-        <a class="pill" href="https://github.com/SoheilGtex/SoheilGtex" target="_blank" rel="noopener">GitHub</a>
       </div>
     </section>
 
-    <!-- Skills -->
+    <!-- SKILLS (3 گروه) -->
     <section class="card glass" data-aos="fade-up">
       <h3>Key Skills</h3>
-      <div class="skills">
-        <ul>
-          <li>Python</li><li>SQL</li><li>Git</li><li>Bash</li><li>Linux</li>
-          <li>Pandas</li><li>NumPy</li><li>Requests</li><li>Matplotlib</li><li>Seaborn</li><li>Scikit-Learn</li>
-          <li>ETL Pipelines</li><li>Data Cleaning &amp; Wrangling</li><li>Data Visualization</li>
-          <li>Business Intelligence (BI)</li><li>EDA</li><li>Mathematics</li>
-          <li>Problem Solving</li><li>Teamwork</li><li>Technical Leadership</li>
-        </ul>
+      <div class="skills-grid">
+        <div class="skills-col">
+          <h4>Programming & Data</h4>
+          <ul class="chips">
+            <li>Python</li><li>SQL</li><li>Git</li><li>Bash</li><li>Linux</li>
+            <li>Pandas</li><li>NumPy</li><li>Requests</li>
+            <li>Matplotlib</li><li>Seaborn</li><li>Scikit-Learn</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <h4>Data Workflows & Tools</h4>
+          <ul class="chips">
+            <li>ETL Pipelines</li><li>Data Cleaning & Wrangling</li>
+            <li>Data Visualization</li><li>Business Intelligence (BI)</li>
+            <li>EDA</li><li>Mathematics</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <h4>Interpersonal & Leadership</h4>
+          <ul class="chips">
+            <li>Problem Solving</li><li>Teamwork</li>
+            <li>Technical Leadership</li><li>Strategy</li>
+            <li>Public Speaking</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <!-- Experience -->
+    <!-- EXPERIENCE (Timeline) -->
     <section class="card glass" data-aos="fade-up">
       <h3>Experience</h3>
       <div class="timeline">
-        <div class="t-item">
+        <div class="t-item" data-aos="fade-right">
           <div class="t-dot"></div>
           <div class="t-content">
             <h4>Data Engineer — Fara-Ro</h4>
@@ -71,24 +88,24 @@
             <ul>
               <li>Collected, cleaned, and structured financial data (primarily stock-market sources).</li>
               <li>Designed efficient data acquisition processes for faster, more accurate updates.</li>
-              <li>Performed EDA, supported BI teams with actionable insights.</li>
+              <li>Performed EDA and supported BI teams with actionable insights.</li>
               <li>Automated pipelines using Python (Pandas, NumPy, requests) and SQL.</li>
             </ul>
           </div>
         </div>
-        <div class="t-item">
+        <div class="t-item" data-aos="fade-right" data-aos-delay="60">
           <div class="t-dot"></div>
           <div class="t-content">
             <h4>Technical Manager — Asansafar Iranian</h4>
             <span class="t-meta">Aug 2023 – Present · Tehran Province, Iran</span>
             <ul>
-              <li>Built and led a cross-functional team (web & mobile).</li>
+              <li>Built and led a cross-functional tech team (web & mobile).</li>
               <li>Defined the technical roadmap aligned with business objectives.</li>
               <li>Ensured timely milestone delivery; oversaw code quality & architecture.</li>
             </ul>
           </div>
         </div>
-        <div class="t-item">
+        <div class="t-item" data-aos="fade-right" data-aos-delay="120">
           <div class="t-dot"></div>
           <div class="t-content">
             <h4>Python Developer — Asansafar Iranian</h4>
@@ -99,7 +116,7 @@
             </ul>
           </div>
         </div>
-        <div class="t-item">
+        <div class="t-item" data-aos="fade-right" data-aos-delay="180">
           <div class="t-dot"></div>
           <div class="t-content">
             <h4>Freelance Programmer — Self-Employed</h4>
@@ -113,7 +130,7 @@
       </div>
     </section>
 
-    <!-- Projects -->
+    <!-- PROJECTS -->
     <section class="card glass" data-aos="fade-up" id="projects">
       <h3>Projects</h3>
       <div class="grid">
@@ -132,7 +149,7 @@
       </div>
     </section>
 
-    <!-- Education -->
+    <!-- EDUCATION -->
     <section class="card glass" data-aos="fade-up">
       <h3>Education</h3>
       <ul class="bullets">
@@ -141,7 +158,7 @@
       </ul>
     </section>
 
-    <!-- Licenses -->
+    <!-- LICENSES -->
     <section class="card glass" data-aos="fade-up">
       <h3>Licenses & Certifications</h3>
       <ul class="bullets two-col">
@@ -164,23 +181,7 @@
       </ul>
     </section>
 
-    <!-- Honors -->
-    <section class="card glass" data-aos="fade-up">
-      <h3>Honors & Awards</h3>
-      <ul class="bullets">
-        <li>ICT Challenge 9 — Sharif University of Technology (Sep 2024)</li>
-        <li>Innovative Research Project — Sharif University of Technology, Exir Festival (Aug 2024)</li>
-        <li>Top Young Inventor & Researcher (again) — Pardis Technology Park (Jan 2024)</li>
-        <li>Project Defense — Tehran Municipality (Oct 2023)</li>
-        <li>Best Programming Project — Sampad Cultural & Artistic Competitions (Apr 2023)</li>
-        <li>Best Research Project — Crisis Management Headquarters (Feb 2023)</li>
-        <li>Top Young Inventor & Researcher — Pardis Technology Park; IRIB Channel 1 (Jan 2023)</li>
-        <li>Best Programmer — Ministry of Education (May 2022)</li>
-        <li>Best Programming Project — Sampad Cultural & Artistic Competitions (Apr 2022)</li>
-      </ul>
-    </section>
-
-    <!-- Orgs & Languages -->
+    <!-- ORGS & LANGS -->
     <section class="card glass" data-aos="fade-up">
       <h3>Organizations & Languages</h3>
       <p><strong>Organizations:</strong> Mathematics Scientific Association (Core Council), AI Association (Member) — Kharazmi University.</p>
@@ -192,14 +193,12 @@
       <div class="cta">
         <a class="btn btn-primary" href="mailto:Soheilsalmanisafarpour@gmail.com">Contact Me</a>
         <a class="btn btn-neutral" href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank">LinkedIn</a>
-        <a class="btn btn-neutral" href="https://github.com/SoheilGtex/SoheilGtex" target="_blank">GitHub</a>
+        <a class="btn btn-neutral" href="https://github.com/SoheilGtex" target="_blank">GitHub</a>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    © <span id="year"></span> Soheil Salmani
-  </footer>
+  <footer class="footer">© <span id="year"></span> Soheil Salmani</footer>
 
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="script.js"></script>
