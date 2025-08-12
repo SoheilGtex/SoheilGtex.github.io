@@ -5,8 +5,9 @@ AOS.init({ duration: 700, easing: 'ease-out-cubic', once: true, offset: 80 });
 const root = document.documentElement;
 const themeBtn = document.getElementById('btn-theme');
 const savedTheme = localStorage.getItem('theme');
-if(savedTheme){ root.setAttribute('data-theme', savedTheme); }
-else if(window.matchMedia('(prefers-color-scheme: light)').matches){
+if(savedTheme){
+  root.setAttribute('data-theme', savedTheme);
+}else if(window.matchMedia('(prefers-color-scheme: light)').matches){
   root.setAttribute('data-theme','light');
 }
 themeBtn?.addEventListener('click', () => {
@@ -40,49 +41,24 @@ function typeLoop(){
 }
 typeLoop();
 
-/* Skill glow on hover (mobile-friendly) */
-document.querySelectorAll('.chips li').forEach(li=>{
-  li.addEventListener('mouseenter', ()=> li.classList.add('skill-glow'));
-  li.addEventListener('mouseleave', ()=> li.classList.remove('skill-glow'));
-  li.addEventListener('touchstart', ()=> li.classList.toggle('skill-glow'), {passive:true});
-});
-
-/* Parallax Bubbles (پس‌زمینه) — نسخه‌ی قبلی با همان سرعت و پارامترها */
-const canvas = document.getElementById('bg-bubbles');
-const ctx = canvas.getContext('2d');
-let W, H, bubbles = [];
-function resize(){
-  W = canvas.width = window.innerWidth;
-  H = canvas.height = window.innerHeight;
-  const COUNT = Math.min(50, Math.floor(W/30));
-  bubbles = Array.from({length: COUNT}, () => ({
-    x: Math.random()*W,
-    y: Math.random()*H,
-    r: Math.random()*5 + 2,
-    s: Math.random()*0.5 + 0.15,
-    a: Math.random()*360
-  }));
+/* Interactive glow helper */
+function addInteractiveGlow(selector){
+  document.querySelectorAll(selector).forEach(el=>{
+    const add = ()=> el.classList.add('glow');
+    const rm  = ()=> el.classList.remove('glow');
+    el.addEventListener('mouseenter', add);
+    el.addEventListener('mouseleave', rm);
+    el.addEventListener('focus', add);
+    el.addEventListener('blur', rm);
+    el.addEventListener('touchstart', ()=> el.classList.toggle('glow'), {passive:true});
+  });
 }
-resize();
-window.addEventListener('resize', resize);
 
-function draw(){
-  ctx.clearRect(0,0,W,H);
-  for(const b of bubbles){
-    b.y -= b.s * 0.55;
-    b.x += Math.sin((b.a+=0.008))*0.2;
-    if(b.y < -10){ b.y = H + 10; b.x = Math.random()*W; }
-    const grad = ctx.createRadialGradient(b.x, b.y, 0, b.x, b.y, b.r*2.2);
-    grad.addColorStop(0, 'rgba(110,201,255,0.16)');
-    grad.addColorStop(1, 'rgba(184,136,255,0.03)');
-    ctx.beginPath();
-    ctx.fillStyle = grad;
-    ctx.arc(b.x, b.y, b.r*2, 0, Math.PI*2);
-    ctx.fill();
-  }
-  requestAnimationFrame(draw);
-}
-draw();
+/* Glow on: skills, language pills, contact pills, topbar buttons & PDF */
+addInteractiveGlow('.chips li');
+addInteractiveGlow('.lang-pills .pill');
+addInteractiveGlow('.contact-pills .pill');
+addInteractiveGlow('.actions .btn');     // LinkedIn / GitHub / Download PDF / Theme
 
 /* Fix Projects initial height to avoid jump on mobile */
 document.addEventListener('DOMContentLoaded', () => {
@@ -90,3 +66,5 @@ document.addEventListener('DOMContentLoaded', () => {
     card.style.minHeight = Math.max(150, card.offsetHeight) + 'px';
   });
 });
+
+/* توجه: بابل‌های پس‌زمینه و کدهای canvas حذف شدند */
