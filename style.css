@@ -48,7 +48,7 @@ body{
   overflow-x:hidden;
 }
 
-/* canvas بابل‌ها حذف شده؛ اگر جایی بود: */
+/* قبلاً بابل‌ها مخفی شده بودند؛ همونو نگه می‌داریم ولی در انتهای فایل override می‌کنیم */
 #bg-bubbles{ display:none !important; }
 
 /* کارت شیشه‌ای */
@@ -95,7 +95,7 @@ html[data-theme="light"] .glass{
 .btn-neutral{ background: rgba(255,255,255,.12); }
 html[data-theme="light"] .btn-neutral{ background:#fff }
 
-/* افکت درخشش اینتراکتیو (برای pill/btn و موبایل) */
+/* افکت درخشش اینتراکتیو */
 .glow{
   transform: translateY(-2px) !important;
   box-shadow: 0 8px 18px rgba(0,0,0,.18), 0 0 0 2px rgba(110,201,255,.25) !important;
@@ -128,7 +128,7 @@ html[data-theme="light"] .pill{ border-color: rgba(22,27,62,0.08) }
   box-shadow: 0 8px 18px rgba(0,0,0,.18), 0 0 0 2px rgba(110,201,255,.25);
   background: linear-gradient(90deg, rgba(110,201,255,.22), rgba(184,136,255,.22));
 }
-/* برای تاچ‌: */
+/* تاچ */
 .chips li.glow{ transform: translateY(-2px); box-shadow: 0 8px 18px rgba(0,0,0,.18), 0 0 0 2px rgba(110,201,255,.25); background: linear-gradient(90deg, rgba(110,201,255,.22), rgba(184,136,255,.22)); }
 
 /* Timeline */
@@ -139,7 +139,6 @@ html[data-theme="light"] .pill{ border-color: rgba(22,27,62,0.08) }
   opacity:.8;
 }
 .t-item{ position:relative; margin:18px 0 28px; }
-/* نقطه کنار عناوین حذف شد */
 .t-dot{ display:none; }
 .t-content h4{ margin:0 0 6px 0; font-size:18px; }
 .t-meta{ color:var(--muted); font-weight:700; font-size:12px }
@@ -189,4 +188,13 @@ a{ color:inherit; text-decoration:none }
   .topbar, .btn, .cta{ display:none !important }
   .glass{ background:#fff; border:1px solid #ddd; box-shadow:none }
   .card{ page-break-inside: avoid }
+}
+
+/* --- فقط در انتهای فایل: برگرداندن بابل‌های پس‌زمینه --- */
+#bg-bubbles{
+  display:block !important;
+  position:fixed !important;
+  inset:0 !important;
+  z-index:-1 !important;
+  pointer-events:none !important;
 }
