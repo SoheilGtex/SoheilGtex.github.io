@@ -7,16 +7,14 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Figtree:wght@300;400;600;700&display=swap" rel="stylesheet">
-
   <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
 
-  <!-- SEO -->
   <meta name="description" content="Soheil Salmani — Data Engineer & Python Developer. ETL pipelines, data analysis, BI workflows, and scalable analytics systems." />
   <meta name="theme-color" content="#0f172a" />
 </head>
 <body>
-  <!-- Animated background bubbles -->
+  <!-- animated bubbles background -->
   <div class="bg">
     <span></span><span></span><span></span><span></span><span></span>
     <span></span><span></span><span></span><span></span><span></span>
@@ -29,14 +27,14 @@
       <span class="title">Data Engineer · Python</span>
     </div>
     <div class="actions">
-      <a class="btn ghost" href="Resume.pdf" download>Download PDF</a>
-      <button id="themeToggle" class="btn">Toggle Theme</button>
+      <a class="btn ghost" href="Resume.pdf" download aria-label="Download Resume PDF">Download PDF</a>
+      <button id="themeToggle" class="btn" aria-label="Toggle Theme">Toggle Theme</button>
     </div>
   </header>
 
   <main class="container">
     <!-- HERO -->
-    <section class="card hero reveal">
+    <section class="card hero reveal" data-delay="0">
       <div class="hero-head">
         <h1>Soheil Salmani</h1>
         <p class="subtitle">Data Engineer | Python | Data Pipelines & Analytics</p>
@@ -54,60 +52,44 @@
 
     <!-- GRID -->
     <section class="grid">
-
       <!-- Skills -->
-      <article class="card reveal">
+      <article class="card reveal" data-delay="80">
         <h2>Key Skills</h2>
         <div class="tag-columns">
           <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Linux</li>
-            <li>Git</li>
-            <li>Bash</li>
+            <li>Python</li><li>SQL</li><li>Linux</li><li>Git</li><li>Bash</li>
           </ul>
           <ul>
-            <li>Pandas</li>
-            <li>NumPy</li>
-            <li>Requests</li>
-            <li>Matplotlib</li>
-            <li>Seaborn</li>
-            <li>Scikit-learn</li>
+            <li>Pandas</li><li>NumPy</li><li>Requests</li>
+            <li>Matplotlib</li><li>Seaborn</li><li>Scikit-learn</li>
           </ul>
           <ul>
-            <li>ETL Pipelines</li>
-            <li>Data Cleaning & Wrangling</li>
-            <li>EDA</li>
-            <li>Data Visualization</li>
-            <li>Business Intelligence (BI)</li>
+            <li>ETL Pipelines</li><li>Data Cleaning & Wrangling</li>
+            <li>EDA</li><li>Data Visualization</li><li>BI</li>
           </ul>
           <ul>
-            <li>Problem Solving</li>
-            <li>Teamwork</li>
-            <li>Technical Leadership</li>
-            <li>Project Management</li>
-            <li>Public Speaking</li>
+            <li>Problem Solving</li><li>Teamwork</li>
+            <li>Technical Leadership</li><li>Project Management</li><li>Public Speaking</li>
           </ul>
         </div>
       </article>
 
       <!-- Experience -->
-      <article class="card reveal">
+      <article class="card reveal" data-delay="120">
         <h2>Experience</h2>
-
-        <div class="item">
+        <div class="item pop">
           <div class="item-head">
             <h3>Data Engineer — Fara-Ro</h3>
             <span class="meta">Dec 2024 – Present · Tehran, Iran</span>
           </div>
           <ul class="bullets">
             <li>Collected, cleaned, and structured financial data (primarily stock-market sources).</li>
-            <li>Designed and optimized data acquisition processes for faster, more accurate updates.</li>
-            <li>Performed EDA and delivered insights to BI teams; automated pipelines with Python & SQL.</li>
+            <li>Optimized data acquisition processes for faster, more accurate updates.</li>
+            <li>Performed EDA; automated pipelines with Python (Pandas, NumPy, requests) & SQL.</li>
           </ul>
         </div>
 
-        <div class="item">
+        <div class="item pop">
           <div class="item-head">
             <h3>Technical Manager — Asansafar Iranian</h3>
             <span class="meta">Aug 2023 – Present · Tehran Province</span>
@@ -115,75 +97,73 @@
           <ul class="bullets">
             <li>Built and led a cross-functional tech team (web & mobile).</li>
             <li>Defined technical roadmap aligned with business objectives; ensured milestone delivery.</li>
-            <li>Provided architectural direction and code-quality oversight.</li>
+            <li>Architectural guidance and code-quality oversight.</li>
           </ul>
         </div>
 
-        <div class="item">
+        <div class="item pop">
           <div class="item-head">
             <h3>Python Developer — Asansafar Iranian</h3>
             <span class="meta">Jun 2023 – Aug 2023 · Tehran Province</span>
           </div>
           <ul class="bullets">
-            <li>Refactored and stabilized legacy Python code for scalable backend development.</li>
-            <li>Implemented core business logic and prepared the system for productization.</li>
+            <li>Refactored and stabilized legacy Python backend for scalability.</li>
+            <li>Implemented core business logic; prepared system for productization.</li>
           </ul>
         </div>
 
-        <div class="item">
+        <div class="item pop">
           <div class="item-head">
             <h3>Freelance Programmer — Self-Employed</h3>
             <span class="meta">Mar 2020 – Present · Tehran</span>
           </div>
           <ul class="bullets">
-            <li>Built automation tools and bots; participated in Project Euler and Natas challenges.</li>
-            <li>Developed a Voice Cloning project recognized by Pardis Technology Park; expanded network with deep-tech firms.</li>
+            <li>Built bots and automation tools; Project Euler & Natas participant.</li>
+            <li>Voice Cloning project recognized by Pardis Technology Park; deep-tech networking.</li>
           </ul>
         </div>
       </article>
 
       <!-- Projects -->
-      <article class="card reveal">
+      <article class="card reveal" data-delay="140">
         <h2>Projects</h2>
-        <div class="item">
+        <div class="item pop">
           <div class="item-head">
             <h3>Voice Cloning (SV2TTS, Python)</h3>
-            <span class="meta">Media: IRIB Channel 1 (Jan 2023) · IRIB Nasim (Exir 2024)</span>
+            <span class="meta">IRIB Channel 1 (Jan 2023) · IRIB Nasim (Exir 2024)</span>
           </div>
           <p>Presented at Pardis Technology Park; showcased at the Crisis Management HQ with national officials and UN representatives (Mr. Mohammad Mokhber, Mr. Rajagopal Gundu, Mr. Stefan Priesner).</p>
         </div>
-        <div class="item">
-          <div class="item-head">
-            <h3>Methane Gas Detection (Python)</h3>
-          </div>
-          <p>Prototype for detecting hazardous methane levels based on sensor logic and thresholds; presented in Sampad programming competitions.</p>
+        <div class="item pop">
+          <div class="item-head"><h3>Methane Gas Detection (Python)</h3></div>
+          <p>Prototype for detecting hazardous methane levels using sensor logic and thresholds; presented in Sampad programming competitions.</p>
         </div>
-        <div class="item">
+        <div class="item pop">
           <div class="item-head">
             <h3>Asansafar — Smart Urban Mobility</h3>
             <span class="meta">Tehran Municipality defense panel (Oct 2023)</span>
           </div>
-          <p>Defined technical direction, prepared MVP for service operations, contributed to defense and planning.</p>
+          <p>Defined technical direction, prepared MVP for service operations.</p>
         </div>
       </article>
 
       <!-- Education -->
-      <article class="card reveal">
+      <article class="card reveal" data-delay="160">
         <h2>Education</h2>
-        <div class="item">
+        <div class="item pop">
           <h3>B.Sc. in Mathematics and Applications — Kharazmi University</h3>
           <span class="meta">Oct 2024 – Present</span>
           <p>Core Council Member of the Mathematics Scientific Association (one of seven). Member of the AI Society.</p>
         </div>
-        <div class="item">
-          <h3>Diploma in Mathematics & Physics — Sampad (NODET)</h3>
+        <div class="item pop">
+          <h3>Diploma — Mathematics & Physics (Sampad / NODET)</h3>
           <span class="meta">Sep 2018 – Jul 2024</span>
-          <p>Selected projects presented at national exhibitions; awards in programming and cultural competitions.</p>
+          <p>Selected projects at national exhibitions; awards in programming & cultural competitions.</p>
         </div>
       </article>
 
       <!-- Certifications -->
-      <article class="card reveal">
+      <article class="card reveal" data-delay="180">
         <h2>Licenses & Certifications</h2>
         <ul class="chips">
           <li>CS50x Puzzle Day 2025 — Harvard</li>
@@ -193,7 +173,7 @@
           <li>Scientific Computing with Python — freeCodeCamp</li>
           <li>CS50x — Harvard/CS50</li>
           <li>Microsoft Learn</li>
-          <li>Git: Become an Expert in Git & GitHub — Udemy</li>
+          <li>Git: Expert in Git & GitHub — Udemy</li>
           <li>Intro to Python — Udemy</li>
           <li>Introduction to Python Programming — Udemy</li>
           <li>Git Started with GitHub — Udemy</li>
@@ -205,7 +185,7 @@
       </article>
 
       <!-- Awards -->
-      <article class="card reveal">
+      <article class="card reveal" data-delay="200">
         <h2>Honors & Awards</h2>
         <ul class="list">
           <li>ICT Challenge 9 — Sharif University of Technology (Sep 2024)</li>
@@ -220,23 +200,26 @@
         </ul>
       </article>
 
-      <!-- Misc -->
-      <article class="card reveal">
+      <!-- Orgs & Languages -->
+      <article class="card reveal" data-delay="220">
         <h2>Organizations & Languages</h2>
         <p><strong>Organizations:</strong> Mathematics Scientific Association (Core Council), AI Association (Member) — Kharazmi University.</p>
-        <p><strong>Languages:</strong> English (Professional Working), German (Limited Working), Persian (Native/Bilingual).</p>
+        <p><strong>Languages:</strong></p>
+        <ul class="chips">
+          <li>English — Professional Working</li>
+          <li>German — Limited Working</li>
+          <li>Persian — Native/Bilingual</li>
+        </ul>
         <div class="cta">
           <a class="btn" href="mailto:Soheilsalmanisafarpour@gmail.com">Contact Me</a>
           <a class="btn ghost" target="_blank" href="https://www.linkedin.com/in/soheil-salmani-822b89232">LinkedIn</a>
         </div>
       </article>
-
     </section>
   </main>
 
   <footer class="container foot">
     <span>© <span id="y"></span> Soheil Salmani</span>
-    <a href="Resume.pdf" download>Download Resume (PDF)</a>
   </footer>
 
   <script src="script.js"></script>
