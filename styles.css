@@ -170,6 +170,7 @@ button { font: inherit; }
   .status-card { max-width: 500px; }
   .path-layout { grid-template-columns: 1fr; gap: 42px; }
   .side-notes { display: grid; grid-template-columns: 1fr 1fr; }
+  .side-notes .side-note:last-child { grid-column: 1 / -1; }
   .contact-section { display: block; }
   .contact-actions { justify-content: flex-start; margin-top: 32px; }
 }
