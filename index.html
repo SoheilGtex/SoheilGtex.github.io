@@ -1,206 +1,200 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="dark">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Soheil Salmani — Resume</title>
-  <meta name="description" content="Soheil Salmani - Data Engineer | Python | Data Pipelines & Analytics" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <!-- فقط حباب‌های پس‌زمینه اضافه شد -->
-  <canvas id="bg-bubbles" aria-hidden="true"></canvas>
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f2efe8" />
+    <title>Soheil Salmani — DevOps, Data &amp; Backend Systems</title>
+    <meta name="description" content="Soheil Salmani is a DevOps Engineer building reliable infrastructure, backend services, data pipelines, and mathematical computing systems." />
+    <meta name="author" content="Soheil Salmani" />
+    <meta name="keywords" content="Soheil Salmani, DevOps Engineer, Data Engineer, Python, Linux, Docker, CI/CD, FastAPI, data systems" />
+    <link rel="canonical" href="https://soheilgtex.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Soheil Salmani" />
+    <meta property="og:title" content="Soheil Salmani — DevOps, Data &amp; Backend Systems" />
+    <meta property="og:description" content="Infrastructure, backend, data systems, and mathematical computing." />
+    <meta property="og:url" content="https://soheilgtex.github.io/" />
+    <meta property="og:image" content="https://soheilgtex.github.io/public/brand-icon.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Soheil Salmani — DevOps, Data &amp; Backend Systems" />
+    <meta name="twitter:description" content="Infrastructure, backend, data systems, and mathematical computing." />
+    <meta name="twitter:image" content="https://soheilgtex.github.io/public/brand-icon.png" />
+    <link rel="icon" href="public/brand-mark.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="public/brand-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Soheil Salmani",
+        "url": "https://soheilgtex.github.io/",
+        "jobTitle": "DevOps Engineer",
+        "description": "DevOps Engineer focused on infrastructure, backend and data systems, with an academic direction in mathematics and computing.",
+        "email": "mailto:soheilsalmanisafarpour@gmail.com",
+        "sameAs": [
+          "https://github.com/SoheilGtex",
+          "https://www.linkedin.com/in/soheil-salmani-822b89232"
+        ],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Kharazmi University"
+        },
+        "knowsAbout": ["DevOps", "Python", "Linux", "Docker", "CI/CD", "FastAPI", "Data Engineering", "Numerical Analysis"]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+      <header class="masthead" data-reveal>
+        <a class="brand" href="#top" aria-label="Soheil Salmani home">
+          <img src="public/brand-mark.svg" alt="" width="34" height="34" />
+          <span class="brand-name">Soheil Salmani</span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="#work">Work</a>
+          <a href="#path">Path</a>
+          <a href="#toolkit">Toolkit</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="masthead-actions">
+          <a class="text-link" href="Resume.pdf" download>Resume <span aria-hidden="true">↗</span></a>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">
+            <span class="theme-icon" aria-hidden="true">◐</span>
+            <span class="theme-label">Theme</span>
+          </button>
+          <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span aria-hidden="true">☰</span>
+          </button>
+        </div>
+      </header>
 
-  <header class="topbar glass">
-    <div class="brand">
-      <span class="dot"></span>
-      <div class="brand-text">
-        <h1>Soheil Salmani</h1>
-        <p>Data Engineer · Python</p>
-      </div>
+      <main id="main-content">
+        <section class="hero" id="top" aria-labelledby="hero-title">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-number">01</span> DevOps Engineer · Tehran, Iran</p>
+            <h1 id="hero-title">Reliable systems for work that matters.</h1>
+            <p class="hero-intro">I build the layer between code and decisions: Linux and Docker environments, CI/CD workflows, secure Python services, and data pipelines that stay useful under change.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">See selected work <span aria-hidden="true">↓</span></a>
+              <a class="button button-quiet" href="mailto:soheilsalmanisafarpour@gmail.com">Start a conversation <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-meta" aria-label="Current status">
+              <span><i class="status-dot" aria-hidden="true"></i> Currently at Fara-Ro</span>
+              <span>Open to Europe-based opportunities</span>
+            </div>
+          </div>
+          <aside class="status-card" aria-label="Current role summary" data-reveal>
+            <div class="status-card-top">
+              <span class="mono-label">SYSTEM / NOW</span>
+              <span class="live-mark"><span aria-hidden="true"></span> Live</span>
+            </div>
+            <div class="status-card-main">
+              <p class="status-role">DevOps Engineer</p>
+              <p class="status-company">Fara-Ro · Sep 2026—present</p>
+            </div>
+            <div class="status-card-grid">
+              <div><span class="mono-label">FOCUS</span><strong>Infrastructure<br />&amp; security</strong></div>
+              <div><span class="mono-label">STUDY</span><strong>Mathematics<br />&amp; applications</strong></div>
+            </div>
+            <div class="status-card-footer"><span>01</span><span>Tehran, IR</span></div>
+          </aside>
+        </section>
+
+        <section class="signal-strip" aria-label="Professional focus" data-reveal>
+          <div><span class="strip-label">Built around</span><strong>Linux · Docker · GitHub Actions</strong></div>
+          <div><span class="strip-label">Connects</span><strong>Infrastructure · APIs · Warehouses</strong></div>
+          <div><span class="strip-label">Grounded in</span><strong>Algorithms · Statistics · Numerics</strong></div>
+        </section>
+
+        <section class="section-block" id="work" aria-labelledby="work-title">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-number">02</span> Selected work</p>
+            <h2 id="work-title">Evidence over adjectives.</h2>
+            <p>Systems projects where correctness, repeatability, and operational detail are part of the work—not afterthoughts.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-card-featured" data-reveal>
+              <div class="project-topline"><span class="project-index">01 / 04</span><span class="project-kind">Research intelligence</span></div>
+              <h3>Math Research Radar</h3>
+              <p>Event-driven research-paper monitoring platform that tracks, extracts, deduplicates, and categorizes mathematics literature from multiple academic sources.</p>
+              <div class="project-footer"><div class="tag-list"><span>FastAPI</span><span>Celery</span><span>PostgreSQL</span><span>Next.js</span></div><a class="arrow-link" href="https://github.com/SoheilGtex/math-research-radar" target="_blank" rel="noopener" aria-label="Open Math Research Radar repository">View repo <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="project-card" data-reveal>
+              <div class="project-topline"><span class="project-index">02 / 04</span><span class="project-kind">Systems benchmark</span></div>
+              <h3>Finance Data Pipelines</h3>
+              <p>Correctness-first time-series ETL and SQLite benchmark comparing stateful loading strategies under duplicates, conflicts, stale revisions, and recovery.</p>
+              <div class="project-footer"><div class="tag-list"><span>Python</span><span>SQLite</span><span>CI</span><span>Docker</span></div><a class="arrow-link" href="https://github.com/SoheilGtex/finance-data-pipelines" target="_blank" rel="noopener" aria-label="Open Finance Data Pipelines repository">View repo <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="project-card" data-reveal>
+              <div class="project-topline"><span class="project-index">03 / 04</span><span class="project-kind">Numerical computing</span></div>
+              <h3>Sine Approximation Study</h3>
+              <p>A MATLAB study of Taylor recurrences, range reduction, Chebyshev polynomials, Clenshaw evaluation, and finite-precision accuracy–runtime trade-offs.</p>
+              <div class="project-footer"><div class="tag-list"><span>MATLAB</span><span>Numerics</span><span>Tests</span></div><a class="arrow-link" href="https://github.com/SoheilGtex/numerical-sine-approximation-matlab" target="_blank" rel="noopener" aria-label="Open sine approximation repository">View repo <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="project-card" data-reveal>
+              <div class="project-topline"><span class="project-index">04 / 04</span><span class="project-kind">Signal processing</span></div>
+              <h3>Active Noise Cancelling</h3>
+              <p>Real-time microphone noise suppression in Python using spectral subtraction, adaptive noise tracking, smoothed gain, and 50% overlap-add.</p>
+              <div class="project-footer"><div class="tag-list"><span>Python</span><span>NumPy</span><span>DSP</span><span>20 ms frames</span></div><a class="arrow-link" href="https://github.com/SoheilGtex/Active-Noise-Cancelling" target="_blank" rel="noopener" aria-label="Open Active Noise Cancelling repository">View repo <span aria-hidden="true">↗</span></a></div>
+            </article>
+          </div>
+          <div class="project-note" data-reveal><span class="note-mark" aria-hidden="true">↳</span><p>More public work includes a consent-first SV2TTS voice-cloning starter with CLI, API, tests, Docker, CI, and watermarking. <a href="https://github.com/SoheilGtex/Voice-Cloning-SV2TTS-" target="_blank" rel="noopener">Read the repository <span aria-hidden="true">↗</span></a></p></div>
+        </section>
+
+        <section class="section-block path-section" id="path" aria-labelledby="path-title">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-number">03</span> The path so far</p>
+            <h2 id="path-title">From data flows to delivery flows.</h2>
+            <p>The through-line is practical systems thinking: make the work observable, repeatable, and easier for the next person to trust.</p>
+          </div>
+          <div class="path-layout">
+            <div class="timeline" aria-label="Experience timeline">
+              <article class="timeline-item timeline-item-current" data-reveal>
+                <div class="timeline-marker"><span>Now</span></div>
+                <div class="timeline-content"><p class="mono-label">Sep 2026—present · Fara-Ro</p><h3>DevOps Engineer</h3><p>Maintain Linux- and Docker-based environments, configure GitHub Actions CI/CD, and apply DevSecOps practices to Python/FastAPI systems, secure deployments, and server hardening.</p></div>
+              </article>
+              <article class="timeline-item" data-reveal>
+                <div class="timeline-marker"><span>02</span></div>
+                <div class="timeline-content"><p class="mono-label">Apr—Sep 2026 · Fara-Ro</p><h3>Analytics Engineer</h3><p>Worked across financial modeling, KPI and metadata systems, analytical workflows, FastAPI/PostgreSQL platform architecture, and application/infrastructure security.</p></div>
+              </article>
+              <article class="timeline-item" data-reveal>
+                <div class="timeline-marker"><span>03</span></div>
+                <div class="timeline-content"><p class="mono-label">Dec 2024—Apr 2026 · Fara-Ro</p><h3>Data Engineer</h3><p>Built Python/SQL pipelines for Iranian and US financial-market data, covering acquisition, cleaning, normalization, warehousing, and analytics collaboration.</p></div>
+              </article>
+              <article class="timeline-item" data-reveal>
+                <div class="timeline-marker"><span>04</span></div>
+                <div class="timeline-content"><p class="mono-label">Jun 2023—Aug 2025 · Asansafar Iranian</p><h3>Python Developer → Technical Manager</h3><p>Refactored backend code, implemented core product logic, then coordinated technical work across backend, frontend, and mobile toward MVP delivery.</p></div>
+              </article>
+            </div>
+            <aside class="side-notes" data-reveal>
+              <div class="side-note"><span class="mono-label">ACADEMIC THREAD</span><h3>B.Sc. Mathematics &amp; Applications</h3><p>Kharazmi University · Oct 2024—present</p><p class="muted">Teaching Assistant for Programming with R, Mathematical Software, Probability I, and Statistical Methods.</p></div>
+              <div class="side-note"><span class="mono-label">CURRENT QUESTIONS</span><ul><li>How do systems behave under failure?</li><li>How can numerical choices stay honest?</li><li>Where do math and infrastructure meet?</li></ul></div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section-block toolkit-section" id="toolkit" aria-labelledby="toolkit-title">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-number">04</span> Working toolkit</p>
+            <h2 id="toolkit-title">The tools are practical. The thinking is portable.</h2>
+          </div>
+          <div class="toolkit-grid">
+            <article class="toolkit-card" data-reveal><span class="toolkit-number">A</span><h3>DevOps &amp; systems</h3><p>Linux · Docker · Git · GitHub Actions · CI/CD · Bash · DevSecOps · application security · server hardening · automated testing</p></article>
+            <article class="toolkit-card" data-reveal><span class="toolkit-number">B</span><h3>Backend &amp; data</h3><p>Python · FastAPI · REST APIs · SQLAlchemy · PostgreSQL · SQL · Prefect · Pandas · NumPy · ETL</p></article>
+            <article class="toolkit-card" data-reveal><span class="toolkit-number">C</span><h3>Computational</h3><p>R · MATLAB · LaTeX · algorithms · numerical analysis · probability &amp; statistics · mathematical modeling · optimization</p></article>
+          </div>
+        </section>
+
+        <section class="contact-section" id="contact" aria-labelledby="contact-title" data-reveal>
+          <div><p class="eyebrow"><span class="eyebrow-number">05</span> Contact</p><h2 id="contact-title">Have a system worth making clearer?</h2><p>For DevOps, data infrastructure, backend systems, or mathematically grounded engineering work, send a note.</p></div>
+          <div class="contact-actions"><a class="button button-primary" href="mailto:soheilsalmanisafarpour@gmail.com">Email Soheil <span aria-hidden="true">↗</span></a><a class="button button-outline" href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a><a class="button button-outline" href="https://github.com/SoheilGtex" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></div>
+        </section>
+      </main>
+
+      <footer class="site-footer"><span>© <span data-year></span> Soheil Salmani</span><span>Built around reliable systems.</span><a href="#top">Back to top ↑</a></footer>
     </div>
-    <div class="actions">
-      <a class="btn btn-neutral" href="https://www.linkedin.com/in/soheil-salmani-822b89232" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn btn-neutral" href="https://github.com/SoheilGtex" target="_blank" rel="noopener">GitHub</a>
-      <a class="btn btn-neutral" id="btn-download" href="Resume.pdf" download>Download PDF</a>
-      <button class="btn btn-primary" id="btn-theme">Toggle Theme</button>
-    </div>
-  </header>
-
-  <main>
-    <!-- HERO -->
-    <section class="card hero glass" data-aos="fade-up" data-aos-offset="60">
-      <h2 class="hero-title">Soheil Salmani</h2>
-      <p class="subtitle"><span id="typing"></span></p>
-      <p class="lead">
-        Data engineer and Python developer focused on data acquisition, cleaning, and analytics—primarily in financial-data and BI workflows. Experienced in building efficient ETL pipelines, structuring large datasets, and collaborating with analysts to deliver dashboards and reports. Open to remote roles and relocation (Germany / Ireland).
-      </p>
-      <div class="contact-pills">
-        <a class="pill" href="mailto:Soheilsalmanisafarpour@gmail.com">✉ Email</a>
-        <a class="pill" href="tel:+989197547949">☎ +98 919 754 7949</a>
-        <!-- LinkedIn pill removed here by request -->
-        <span class="pill">📍 Tehran, Iran</span>
-      </div>
-    </section>
-
-    <!-- SKILLS (3 groups) -->
-    <section class="card glass" data-aos="fade-up">
-      <h3>Key Skills</h3>
-      <div class="skills-grid">
-        <div class="skills-col">
-          <h4>Programming & Data</h4>
-          <ul class="chips">
-            <li>Python</li><li>SQL</li><li>Git</li><li>Bash</li><li>Linux</li>
-            <li>Pandas</li><li>NumPy</li><li>Requests</li>
-            <li>Matplotlib</li><li>Seaborn</li><li>Scikit-Learn</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <h4>Data Workflows & Tools</h4>
-          <ul class="chips">
-            <li>ETL Pipelines</li><li>Data Cleaning & Wrangling</li>
-            <li>Data Visualization</li><li>Business Intelligence (BI)</li>
-            <li>EDA</li><li>Mathematics</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <h4>Interpersonal & Leadership</h4>
-          <ul class="chips">
-            <li>Problem Solving</li><li>Teamwork</li>
-            <li>Technical Leadership</li><li>Strategy</li>
-            <li>Public Speaking</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE (Timeline) -->
-    <section class="card glass" data-aos="fade-up">
-      <h3>Experience</h3>
-      <div class="timeline">
-        <div class="t-item" data-aos="fade-right">
-          <div class="t-dot"></div>
-          <div class="t-content">
-            <h4>Data Engineer — Fara-Ro</h4>
-            <span class="t-meta">Dec 2024 – Present · Tehran, Iran</span>
-            <ul>
-              <li>Collected, cleaned, and structured financial data (primarily stock-market sources).</li>
-              <li>Designed efficient data acquisition processes for faster, more accurate updates.</li>
-              <li>Performed EDA and supported BI teams with actionable insights.</li>
-              <li>Automated pipelines using Python (Pandas, NumPy, requests) and SQL.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="t-item" data-aos="fade-right" data-aos-delay="60">
-          <div class="t-dot"></div>
-          <div class="t-content">
-            <h4>Technical Manager — Asansafar Iranian</h4>
-            <span class="t-meta">Aug 2023 – Present · Tehran Province, Iran</span>
-            <ul>
-              <li>Built and led a cross-functional tech team (web & mobile).</li>
-              <li>Defined the technical roadmap aligned with business objectives.</li>
-              <li>Ensured timely milestone delivery; oversaw code quality & architecture.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="t-item" data-aos="fade-right" data-aos-delay="120">
-          <div class="t-dot"></div>
-          <div class="t-content">
-            <h4>Python Developer — Asansafar Iranian</h4>
-            <span class="t-meta">Jun 2023 – Aug 2023 · Tehran Province, Iran</span>
-            <ul>
-              <li>Refactored legacy Python backend for scalability & maintainability.</li>
-              <li>Implemented core business logic and prepared the system for productization.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="t-item" data-aos="fade-right" data-aos-delay="180">
-          <div class="t-dot"></div>
-          <div class="t-content">
-            <h4>Freelance Programmer — Self-Employed</h4>
-            <span class="t-meta">Mar 2020 – Present · Tehran, Iran</span>
-            <ul>
-              <li>Built bots & automation tools in Python; Project Euler & Natas challenges.</li>
-              <li>Voice Cloning project recognized by Pardis Technology Park.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section class="card glass" data-aos="fade-up" id="projects">
-      <h3>Projects</h3>
-      <div class="grid">
-        <div class="project bubble" data-aos="zoom-in" data-aos-delay="50">
-          <h4>Voice Cloning (SV2TTS, Python)</h4>
-          <p>Presented at Pardis Technology Park; showcased at the Crisis Management Headquarters with UN representatives. Media: IRIB Channel 1 (Jan 2023) & IRIB Nasim (Exir Festival, 2024).</p>
-        </div>
-        <div class="project bubble" data-aos="zoom-in" data-aos-delay="100">
-          <h4>Methane Gas Detection (Python)</h4>
-          <p>Sensor-based prototype for methane hazard detection using threshold logic; presented in Sampad programming competitions.</p>
-        </div>
-        <div class="project bubble" data-aos="zoom-in" data-aos-delay="150">
-          <h4>Asansafar — Smart Urban Mobility</h4>
-          <p>Defined technical direction; prepared MVP for service operations; defended at Tehran Municipality panel (Oct 2023).</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section class="card glass" data-aos="fade-up">
-      <h3>Education</h3>
-      <ul class="bullets">
-        <li><strong>B.Sc. in Mathematics and Applications</strong> — Kharazmi University (Oct 2024 – Present). Core Council Member of the Mathematics Scientific Association; Member of the AI Society.</li>
-        <li><strong>Diploma in Mathematics & Physics</strong> — Sampad (Sep 2018 – Jul 2024).</li>
-      </ul>
-    </section>
-
-    <!-- LICENSES -->
-    <section class="card glass" data-aos="fade-up">
-      <h3>Licenses & Certifications</h3>
-      <ul class="bullets two-col">
-        <li>CS50x Puzzle Day 2025 — Harvard University (Apr 2025)</li>
-        <li>CS50x Puzzle Day 2024 — Harvard University (Apr 2024)</li>
-        <li>Data Analysis with Python — freeCodeCamp (May 2023)</li>
-        <li>Machine Learning with Python — freeCodeCamp (May 2023)</li>
-        <li>Scientific Computing with Python — freeCodeCamp (Apr 2023)</li>
-        <li>CS50x Puzzle Day 2023 — Harvard University (Mar 2023)</li>
-        <li>CS50x — Harvard/CS50 (Dec 2022)</li>
-        <li>Microsoft Learn (Feb 2022)</li>
-        <li>Git: Become an Expert in Git & GitHub — Udemy (May 2023)</li>
-        <li>Intro to Python — Udemy (May 2023)</li>
-        <li>Introduction to Python Programming — Udemy (May 2023)</li>
-        <li>Git Started with GitHub — Udemy (May 2023)</li>
-        <li>Python — Mimo (Apr 2020)</li>
-        <li>SQL — Mimo (Apr 2020)</li>
-        <li>LOGIC — Raymand Robot (Jun 2018)</li>
-        <li>KAIROBOT 3 — Raymand Robot (Dec 2017)</li>
-      </ul>
-    </section>
-
-    <!-- ORGS & LANGS -->
-    <section class="card glass" data-aos="fade-up">
-      <h3>Organizations & Languages</h3>
-      <p><strong>Organizations:</strong> Mathematics Scientific Association (Core Council), AI Association (Member) — Kharazmi University.</p>
-      <div class="lang-pills">
-        <span class="pill">English — Professional Working</span>
-        <span class="pill">German — Limited Working</span>
-        <span class="pill">Persian — Native/Bilingual</span>
-      </div>
-      <div class="cta">
-        <a class="btn btn-primary" href="mailto:Soheilsalmanisafarpour@gmail.com">Contact Me</a>
-        <!-- LinkedIn & GitHub removed here by request -->
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">© <span id="year"></span> Soheil Salmani</footer>
-
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js" defer></script>
+  </body>
 </html>
