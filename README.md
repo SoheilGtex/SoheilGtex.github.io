@@ -1,4 +1,4 @@
-# Soheil Salmani — Portfolio
+# Soheil Salmani - Portfolio
 
 Personal portfolio of Soheil Salmani, focused on DevOps, backend and data systems, computational work, and mathematics.
 
@@ -14,8 +14,8 @@ Then open:
 
 ## Documents
 
-- `Industry_Resume.pdf` — industry-focused resume
-- `Academic_CV.pdf` — academic and research-focused CV
+- `Industry_Resume.pdf` - industry-focused resume
+- `Academic_CV.pdf` - academic and research-focused CV
 
 ## Stack
 
