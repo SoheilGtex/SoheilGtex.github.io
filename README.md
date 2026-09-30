@@ -1,15 +1,26 @@
-# Soheil Salmani Portfolio
+# Soheil Salmani — Portfolio
 
-Dependency-free managed static portfolio for Soheil Salmani.
+Personal portfolio of Soheil Salmani, focused on DevOps, backend and data systems, computational work, and mathematics.
 
 ## Local development
 
-```bash
-python3 -m http.server 3000
-```
+Run:
 
-Open `http://localhost:3000/`.
+    python3 -m http.server 3000
 
-## Source audit
+Then open:
 
-This build uses the Phase 0 bundle at `/home/ubuntu/phase0_bundle` as the local audit source. The current professional identity follows the newest Industry Resume, academic facts follow the Academic CV, and selected project claims follow the live GitHub profile and repositories.
+    http://localhost:3000/
+
+## Documents
+
+- `Industry_Resume.pdf` — industry-focused resume
+- `Academic_CV.pdf` — academic and research-focused CV
+
+## Stack
+
+Static HTML, CSS, and JavaScript with no runtime dependencies.
+
+## Live site
+
+https://soheilgtex.github.io/
