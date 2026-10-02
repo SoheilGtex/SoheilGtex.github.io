@@ -1,0 +1,1266 @@
+{
+  "schema_version": 2,
+  "record_as_of": "2026-10-02",
+  "identity": {
+    "name": "Soheil Salmani",
+    "degree": "B.Sc. in Mathematics and Applications",
+    "institution": "Kharazmi University",
+    "start": "Oct 2024",
+    "cs_direction": "Computer Science secondary track"
+  },
+  "record_type": "Student-provided working record, not an official transcript",
+  "gpa_scale": 20,
+  "categories": {
+    "base": "Base courses",
+    "core": "Core mathematics",
+    "mathematics_elective": "Mathematics elective",
+    "cs_secondary": "CS secondary track",
+    "general": "General courses",
+    "outside_chart": "Outside degree chart",
+    "interest_only": "Interest-driven study outside the curriculum"
+  },
+  "semesters": [],
+  "notes": [
+    "Completion terms are not supplied for the graded courses.",
+    "No documented prerequisite relationships are supplied.",
+    "Five current courses and their credit values are confirmed directly by the student on 2 October 2026.",
+    "The working cumulative calculation includes Student Life Skills as in the supplied record; it is not a registrar-issued GPA.",
+    "Interest-only study is outside the formal degree chart and is not confirmed registration."
+  ],
+  "sources": {
+    "academic-record": "02_Academic_Record_Current.md",
+    "degree-plan": "03_Coursework_and_Degree_Plan.md",
+    "projected-coursework": "08_Projected_Coursework_2026_2027_v2.md",
+    "student-update-2026-10-02": "Direct student confirmation in the 2 October 2026 data, Academics UX and email reliability brief."
+  },
+  "courses": [
+    {
+      "id": "general-mathematics-i",
+      "title": "Calculus I",
+      "title_fa": "ریاضی عمومی ۱",
+      "credits": 4,
+      "grade": 14.0,
+      "semester": null,
+      "status": "completed",
+      "category": "base",
+      "prerequisites": [],
+      "sources": [
+        "academic-record",
+        "student-update-2026-10-02"
+      ],
+      "profile_visible": true,
+      "source_record": {
+        "id": "general-mathematics-i",
+        "title": "General Mathematics I",
+        "credits": 4,
+        "grade": 14.0,
+        "semester": null,
+        "status": "completed",
+        "category": "base"
+      }
+    },
+    {
+      "id": "introductory-probability-and-statistics",
+      "title": "Introductory Probability and Statistics",
+      "title_fa": "آمار و احتمالات مقدماتی",
+      "credits": 3,
+      "grade": 19.25,
+      "semester": null,
+      "status": "completed",
+      "category": "base",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "fundamentals-of-computers-and-programming",
+      "title": "Fundamentals of Computers and Programming",
+      "title_fa": "مبانی کامپیوتر و برنامه سازی",
+      "credits": 3,
+      "grade": 19.75,
+      "semester": null,
+      "status": "completed",
+      "category": "base",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "general-persian",
+      "title": "General Persian",
+      "title_fa": "فارسی عمومی",
+      "credits": 3,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "general",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": false
+    },
+    {
+      "id": "foundations-of-elementary-mathematics",
+      "title": "Foundations of Elementary Mathematics",
+      "title_fa": "مبانی ریاضی مقدماتی",
+      "credits": 2,
+      "grade": 11.0,
+      "semester": null,
+      "status": "completed",
+      "category": "base",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "general-basic-physics-i",
+      "title": "General/Basic Physics I",
+      "title_fa": "فیزیک پایه ۱",
+      "credits": 3,
+      "grade": 16.0,
+      "semester": null,
+      "status": "completed",
+      "category": "base",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "general-english",
+      "title": "General English",
+      "title_fa": "زبان عمومی",
+      "credits": 3,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "general",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "physics-laboratory-i",
+      "title": "Physics Laboratory I",
+      "title_fa": "آزمایشگاه فیزیک پایه ۱",
+      "credits": 1,
+      "grade": 13.75,
+      "semester": null,
+      "status": "completed",
+      "category": "base",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "foundations-of-combinatorics",
+      "title": "Foundations of Combinatorics",
+      "title_fa": "مبانی ترکیبات",
+      "credits": 4,
+      "grade": 15.0,
+      "semester": null,
+      "status": "completed",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "family-and-population-studies",
+      "title": "Family and Population Studies",
+      "title_fa": "دانش خانواده و جمعیت",
+      "credits": 2,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "general",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": false
+    },
+    {
+      "id": "differential-equations",
+      "title": "Differential Equations",
+      "title_fa": "معادلات دیفرانسیل",
+      "credits": 3,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "base",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "data-structures-and-algorithms",
+      "title": "Data Structures and Algorithms",
+      "title_fa": "ساختمان داده ها و الگوریتم ها",
+      "credits": 3,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "human-in-islam",
+      "title": "Human in Islam",
+      "title_fa": "انسان در اسلام",
+      "credits": 2,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "general",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": false
+    },
+    {
+      "id": "physical-education-sport-i",
+      "title": "Physical Education / Sport I",
+      "title_fa": "ورزش ۱",
+      "credits": 1,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "general",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": false
+    },
+    {
+      "id": "student-life-skills",
+      "title": "Student Life Skills",
+      "title_fa": "مهارتهای زندگی دانشجویی",
+      "credits": 2,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "outside_chart",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "note": "Outside the main degree chart. Included in this working weighted calculation.",
+      "profile_visible": false
+    },
+    {
+      "id": "foundations-of-matrices-and-linear-algebra",
+      "title": "Foundations of Matrices and Linear Algebra",
+      "title_fa": "مبانی ماتریس ها و جبر خطی",
+      "credits": 4,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "foundations-of-mathematical-analysis",
+      "title": "Foundations of Mathematical Analysis",
+      "title_fa": "مبانی آنالیز ریاضی",
+      "credits": 4,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "general-mathematics-ii",
+      "title": "Calculus II",
+      "title_fa": "ریاضی عمومی ۲",
+      "credits": 4,
+      "grade": 15.5,
+      "semester": null,
+      "status": "completed",
+      "category": "base",
+      "prerequisites": [],
+      "sources": [
+        "academic-record",
+        "student-update-2026-10-02"
+      ],
+      "profile_visible": true,
+      "source_record": {
+        "id": "general-mathematics-ii",
+        "title": "General Mathematics II",
+        "credits": 4,
+        "grade": 15.5,
+        "semester": null,
+        "status": "completed",
+        "category": "base"
+      }
+    },
+    {
+      "id": "mathematical-software",
+      "title": "Mathematical Software",
+      "title_fa": "نرم افزار ریاضی",
+      "credits": 3,
+      "grade": 18.0,
+      "semester": null,
+      "status": "completed",
+      "category": "mathematics_elective",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "advanced-programming",
+      "title": "Advanced Programming",
+      "title_fa": "برنامه سازی پیشرفته",
+      "credits": 3,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "physical-education-i",
+      "title": "Physical Education I",
+      "title_fa": "تربیت بدنی ۱",
+      "credits": 1,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "general",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": false
+    },
+    {
+      "id": "mathematics-laboratory-i",
+      "title": "Mathematics Laboratory I",
+      "title_fa": "آزمایشگاه ریاضی ۱",
+      "credits": 1,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "base",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "foundations-of-mathematical-sciences",
+      "title": "Foundations of Mathematical Sciences",
+      "title_fa": "مبانی علوم ریاضی",
+      "credits": 4,
+      "grade": 15.0,
+      "semester": null,
+      "status": "completed",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "foundations-of-numerical-analysis",
+      "title": "Foundations of Numerical Analysis",
+      "title_fa": "مبانی آنالیز عددی",
+      "credits": 4,
+      "grade": 18.5,
+      "semester": null,
+      "status": "completed",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "profile_visible": true
+    },
+    {
+      "id": "islamic-ethics-foundations-and-concepts",
+      "title": "Islamic Ethics (Foundations and Concepts)",
+      "title_fa": "اخلاق اسلامی (مبانی و مفاهیم)",
+      "credits": 2,
+      "grade": 20.0,
+      "semester": null,
+      "status": "completed",
+      "category": "general",
+      "prerequisites": [],
+      "sources": [
+        "academic-record"
+      ],
+      "note": "Final grade supplied directly by the student.",
+      "profile_visible": false
+    },
+    {
+      "id": "numerical-linear-algebra",
+      "title": "Numerical Linear Algebra",
+      "title_fa": "جبر خطی عددی",
+      "semester": null,
+      "status": "in_progress",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 4,
+      "profile_visible": true,
+      "source_record": {
+        "id": "numerical-linear-algebra",
+        "title": "Numerical Linear Algebra",
+        "semester": 5,
+        "status": "planned",
+        "category": "core",
+        "credits": 4
+      },
+      "grade": null
+    },
+    {
+      "id": "mathematical-analysis",
+      "title": "Mathematical Analysis",
+      "title_fa": "آنالیز ریاضی",
+      "semester": null,
+      "status": "in_progress",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 4,
+      "profile_visible": true,
+      "source_record": {
+        "id": "mathematical-analysis",
+        "title": "Mathematical Analysis",
+        "semester": 5,
+        "status": "planned",
+        "category": "core",
+        "credits": 4,
+        "plan_option": "Schedule B"
+      },
+      "grade": null
+    },
+    {
+      "id": "introductory-mathematical-modeling",
+      "title": "Introductory Mathematical Modeling",
+      "title_fa": "مدل‌سازی مقدماتی ریاضی",
+      "semester": null,
+      "status": "in_progress",
+      "category": "mathematics_elective",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 3,
+      "profile_visible": true,
+      "source_record": {
+        "id": "introductory-mathematical-modeling",
+        "title": "Introductory Mathematical Modeling",
+        "semester": 5,
+        "status": "planned",
+        "category": "mathematics_elective",
+        "credits": 3
+      },
+      "grade": null
+    },
+    {
+      "id": "operating-systems",
+      "title": "Operating Systems",
+      "title_fa": "اصول سیستم‌های عامل",
+      "semester": null,
+      "status": "in_progress",
+      "category": "cs_secondary",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 4,
+      "profile_visible": true,
+      "source_record": {
+        "id": "operating-systems",
+        "title": "Operating Systems",
+        "semester": 5,
+        "status": "planned",
+        "category": "cs_secondary",
+        "credits": 3,
+        "plan_option": "Schedule B"
+      },
+      "grade": null
+    },
+    {
+      "id": "design-and-analysis-of-algorithms",
+      "title": "Design and Analysis of Algorithms",
+      "title_fa": "طراحی و تحلیل الگوریتم‌ها",
+      "semester": null,
+      "status": "in_progress",
+      "category": "cs_secondary",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 4,
+      "profile_visible": true,
+      "source_record": {
+        "id": "design-and-analysis-of-algorithms",
+        "title": "Design and Analysis of Algorithms",
+        "semester": 5,
+        "status": "planned",
+        "category": "cs_secondary",
+        "credits": 3
+      },
+      "grade": null
+    },
+    {
+      "id": "matlab-ii",
+      "title": "MATLAB II",
+      "title_fa": "متلب ۲",
+      "semester": null,
+      "status": "planned",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "profile_visible": true,
+      "source_record": {
+        "id": "matlab-ii",
+        "title": "MATLAB II",
+        "semester": 6,
+        "status": "planned",
+        "note": "Provisional title. Official course title and credit value are not yet documented."
+      },
+      "credits": 1,
+      "grade": null,
+      "category": "mathematics_elective"
+    },
+    {
+      "id": "general-mathematics-iii",
+      "title": "Calculus III",
+      "title_fa": "ریاضی عمومی ۳",
+      "semester": null,
+      "status": "planned",
+      "category": "base",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 3,
+      "profile_visible": true,
+      "source_record": {
+        "id": "general-mathematics-iii",
+        "title": "General Mathematics III",
+        "semester": 6,
+        "status": "planned",
+        "category": "base",
+        "credits": 3
+      },
+      "grade": null
+    },
+    {
+      "id": "foundations-of-algebra",
+      "title": "Foundations of Algebra",
+      "title_fa": "مبانی جبر",
+      "semester": null,
+      "status": "planned",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 4,
+      "profile_visible": true,
+      "source_record": {
+        "id": "foundations-of-algebra",
+        "title": "Foundations of Algebra",
+        "semester": null,
+        "status": "planned",
+        "category": "core",
+        "credits": 4,
+        "note": "Expected by the Semester 5 stage in the planning source. Exact term and completion are unconfirmed."
+      },
+      "grade": null
+    },
+    {
+      "id": "introduction-to-differential-geometry",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Introduction to Differential Geometry",
+      "credits": 4,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "mathematics_elective",
+      "source_record": {
+        "id": "introduction-to-differential-geometry",
+        "title": "Introduction to Differential Geometry",
+        "credits": 4,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "mathematics_elective"
+      }
+    },
+    {
+      "id": "abstract-algebra-i",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Abstract Algebra I",
+      "credits": 4,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "core",
+      "source_record": {
+        "id": "abstract-algebra-i",
+        "title": "Abstract Algebra I",
+        "credits": 4,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "core"
+      }
+    },
+    {
+      "id": "operations-research",
+      "title": "Operations Research",
+      "title_fa": "تحقیق در عملیات",
+      "semester": null,
+      "status": "planned",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 4,
+      "profile_visible": true,
+      "source_record": {
+        "id": "operations-research",
+        "title": "Operations Research",
+        "semester": 6,
+        "status": "planned",
+        "category": "core",
+        "credits": 4,
+        "plan_option": "Optimization choice",
+        "note": "An alternative to Linear Optimization. Registration is not yet confirmed."
+      },
+      "grade": null
+    },
+    {
+      "id": "nonlinear-optimization",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Nonlinear Optimization",
+      "credits": 4,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "mathematics_elective",
+      "source_record": {
+        "id": "nonlinear-optimization",
+        "title": "Nonlinear Optimization",
+        "credits": 4,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "mathematics_elective"
+      }
+    },
+    {
+      "id": "general-topology",
+      "title": "General Topology",
+      "title_fa": "توپولوژی عمومی",
+      "semester": null,
+      "status": "planned",
+      "category": "core",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 4,
+      "profile_visible": true,
+      "source_record": {
+        "id": "general-topology",
+        "title": "General Topology",
+        "semester": 6,
+        "status": "planned",
+        "category": "core",
+        "credits": 4
+      },
+      "grade": null
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear Algebra",
+      "title_fa": "جبر خطی",
+      "semester": null,
+      "status": "planned",
+      "category": "mathematics_elective",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 4,
+      "profile_visible": true,
+      "source_record": {
+        "id": "linear-algebra",
+        "title": "Linear Algebra",
+        "semester": 5,
+        "status": "planned",
+        "category": "mathematics_elective",
+        "credits": 4,
+        "plan_option": "Schedule A"
+      },
+      "grade": null
+    },
+    {
+      "id": "foundations-of-theory-of-computation",
+      "title": "Introduction to Theory of Computation",
+      "title_fa": "مبانی نظریه محاسبه",
+      "semester": null,
+      "status": "planned",
+      "category": "cs_secondary",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 3,
+      "profile_visible": true,
+      "source_record": {
+        "id": "foundations-of-theory-of-computation",
+        "title": "Foundations of Theory of Computation",
+        "semester": 6,
+        "status": "planned",
+        "category": "cs_secondary",
+        "credits": 3
+      },
+      "grade": null
+    },
+    {
+      "id": "database-systems",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Database Systems",
+      "credits": 3,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "cs_secondary",
+      "source_record": {
+        "id": "database-systems",
+        "title": "Database Systems",
+        "credits": 3,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "cs_secondary"
+      }
+    },
+    {
+      "id": "machine-learning",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Machine Learning",
+      "credits": 3,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "cs_secondary",
+      "source_record": {
+        "id": "machine-learning",
+        "title": "Machine Learning",
+        "credits": 3,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "cs_secondary"
+      }
+    },
+    {
+      "id": "artificial-intelligence",
+      "title": "Artificial Intelligence",
+      "title_fa": "هوش مصنوعی",
+      "semester": null,
+      "status": "planned",
+      "category": "cs_secondary",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 3,
+      "profile_visible": true,
+      "source_record": {
+        "id": "artificial-intelligence",
+        "title": "Artificial Intelligence",
+        "semester": 5,
+        "status": "planned",
+        "category": "cs_secondary",
+        "credits": 3,
+        "plan_option": "Schedule A"
+      },
+      "grade": null
+    },
+    {
+      "id": "computer-networks",
+      "title": "Computer Networks",
+      "title_fa": "شبکه‌های کامپیوتری",
+      "semester": null,
+      "status": "planned",
+      "category": "cs_secondary",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan",
+        "student-update-2026-10-02"
+      ],
+      "credits": 3,
+      "profile_visible": true,
+      "source_record": {
+        "id": "computer-networks",
+        "title": "Computer Networks",
+        "semester": 6,
+        "status": "planned",
+        "category": "cs_secondary",
+        "credits": 3
+      },
+      "grade": null
+    },
+    {
+      "id": "dynamic-optimization",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Dynamic Optimization",
+      "credits": 3,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "mathematics_elective",
+      "source_record": {
+        "id": "dynamic-optimization",
+        "title": "Dynamic Optimization",
+        "credits": 3,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "mathematics_elective"
+      }
+    },
+    {
+      "id": "coding-theory",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Coding Theory",
+      "credits": 3,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "mathematics_elective",
+      "source_record": {
+        "id": "coding-theory",
+        "title": "Coding Theory",
+        "credits": 3,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "mathematics_elective"
+      }
+    },
+    {
+      "id": "distributed-systems",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Distributed Systems",
+      "credits": 3,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "interest_only",
+      "source_record": {
+        "id": "distributed-systems",
+        "title": "Distributed Systems",
+        "credits": 3,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "interest_only"
+      }
+    },
+    {
+      "id": "foundations-of-fourier-analysis-and-wavelets",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Foundations of Fourier Analysis and Wavelets",
+      "credits": 3,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "interest_only",
+      "source_record": {
+        "id": "foundations-of-fourier-analysis-and-wavelets",
+        "title": "Foundations of Fourier Analysis and Wavelets",
+        "credits": 3,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "interest_only"
+      }
+    },
+    {
+      "id": "mathematical-modeling",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Mathematical Modeling",
+      "credits": 3,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "interest_only",
+      "source_record": {
+        "id": "mathematical-modeling",
+        "title": "Mathematical Modeling",
+        "credits": 3,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "interest_only"
+      }
+    },
+    {
+      "id": "introduction-to-game-theory",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Introduction to Game Theory",
+      "credits": 3,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "interest_only",
+      "source_record": {
+        "id": "introduction-to-game-theory",
+        "title": "Introduction to Game Theory",
+        "credits": 3,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "interest_only"
+      }
+    },
+    {
+      "id": "introduction-to-data-mining",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Introduction to Data Mining",
+      "credits": 3,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "interest_only",
+      "source_record": {
+        "id": "introduction-to-data-mining",
+        "title": "Introduction to Data Mining",
+        "credits": 3,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "interest_only"
+      }
+    },
+    {
+      "id": "graph-theory",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Graph Theory",
+      "credits": 3,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "interest_only",
+      "source_record": {
+        "id": "graph-theory",
+        "title": "Graph Theory",
+        "credits": 3,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "interest_only"
+      }
+    },
+    {
+      "id": "probability-i",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Probability I",
+      "credits": 4,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "interest_only",
+      "source_record": {
+        "id": "probability-i",
+        "title": "Probability I",
+        "credits": 4,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "interest_only"
+      }
+    },
+    {
+      "id": "stochastic-processes",
+      "prerequisites": [],
+      "sources": [
+        "student-update-2026-10-02"
+      ],
+      "title": "Stochastic Processes",
+      "credits": 4,
+      "status": "planned",
+      "profile_visible": true,
+      "grade": null,
+      "semester": null,
+      "category": "interest_only",
+      "source_record": {
+        "id": "stochastic-processes",
+        "title": "Stochastic Processes",
+        "credits": 4,
+        "status": "planned",
+        "grade": null,
+        "semester": null,
+        "category": "interest_only"
+      }
+    },
+    {
+      "id": "islamic-revolution-of-iran",
+      "title": "Islamic Revolution of Iran",
+      "title_fa": "انقلاب اسلامی ایران",
+      "semester": null,
+      "status": "planned",
+      "category": "general",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan"
+      ],
+      "credits": 2,
+      "profile_visible": false,
+      "source_record": {
+        "id": "islamic-revolution-of-iran",
+        "title": "Islamic Revolution of Iran",
+        "semester": 5,
+        "status": "planned",
+        "category": "general",
+        "credits": 2,
+        "plan_option": "Schedule A"
+      }
+    },
+    {
+      "id": "history-of-islamic-and-iranian-culture-and-civilization",
+      "title": "History of Islamic and Iranian Culture and Civilization",
+      "title_fa": "تاریخ فرهنگ و تمدن اسلام و ایران",
+      "semester": null,
+      "status": "planned",
+      "category": "general",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan"
+      ],
+      "credits": 2,
+      "profile_visible": false,
+      "source_record": {
+        "id": "history-of-islamic-and-iranian-culture-and-civilization",
+        "title": "History of Islamic and Iranian Culture and Civilization",
+        "semester": 5,
+        "status": "planned",
+        "category": "general",
+        "credits": 2,
+        "plan_option": "Schedule B"
+      }
+    },
+    {
+      "id": "linear-optimization",
+      "title": "Linear Optimization",
+      "title_fa": "بهینه‌سازی خطی",
+      "semester": null,
+      "status": "planned",
+      "prerequisites": [],
+      "sources": [
+        "projected-coursework",
+        "degree-plan"
+      ],
+      "note": "Preserved earlier unconfirmed alternative, superseded by the current student-provided plan.",
+      "profile_visible": false,
+      "source_record": {
+        "id": "linear-optimization",
+        "title": "Linear Optimization",
+        "semester": 6,
+        "status": "planned",
+        "plan_option": "Optimization choice",
+        "note": "An alternative to Operations Research. Exact course and credit value are not yet documented."
+      }
+    }
+  ],
+  "display_scope": {
+    "method": "profile_visible_boolean",
+    "description": "Coursework shown here focuses on mathematically, computationally and application-relevant study. General university requirements are omitted; General English is retained.",
+    "relevant_average_method": "credit_weighted_profile_visible_completed_graded"
+  },
+  "source_history": {
+    "previous_record_as_of": "2026-09-13",
+    "notes": [
+      "Completion terms are not supplied for the graded courses.",
+      "No official prerequisite relationships are supplied.",
+      "Semester 5 registration is not confirmed. Both alternative schedules remain planned.",
+      "Student Life Skills is included in the working calculation, but its degree-chart treatment is uncertain."
+    ],
+    "semesters": [
+      {
+        "id": 5,
+        "label": "Semester 5",
+        "context": "Projected · Fall 2026",
+        "note": "Two alternative schedules are recorded. Shared courses and options are planned until registration is confirmed."
+      },
+      {
+        "id": 6,
+        "label": "Semester 6",
+        "context": "Planned · 2027",
+        "note": "Provisional plan. Operations Research and Linear Optimization are alternatives."
+      }
+    ],
+    "display_scope": {
+      "exclude_categories": [
+        "general",
+        "outside_chart"
+      ],
+      "include_ids": [
+        "general-english"
+      ],
+      "description": "Mathematical, computational and supporting scientific coursework. General English is retained.",
+      "gpa_method": "credit_weighted_displayed_completed",
+      "four_point_method": "linear_rescaling_not_official_conversion"
+    }
+  },
+  "grades_as_of": "2026-09-13",
+  "working_cumulative_method": "credit_weighted_non_interest_completed_graded",
+  "gpa_4": {
+    "value": null,
+    "method": null,
+    "note": "Use a named credential evaluator or receiving institution method."
+  },
+  "prerequisite_data_status": "unavailable",
+  "teaching_assistant": {
+    "institution": "Kharazmi University",
+    "start": "Jan 2026",
+    "end": "present",
+    "courses": [
+      "Programming with R",
+      "Mathematical Software",
+      "Probability I",
+      "Statistical Methods",
+      "MATLAB II"
+    ]
+  }
+}

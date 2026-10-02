@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "projects": [
+    {
+      "id": "math-research-radar",
+      "title": "Math Research Radar",
+      "description": "Automated monitoring and research intelligence for mathematics literature.",
+      "url": "https://github.com/SoheilGtex/math-research-radar"
+    },
+    {
+      "id": "numerical-learning-dynamics",
+      "title": "Numerical Learning Dynamics",
+      "description": "Reproducible modeling of forecasting, stability, regularization, uncertainty and robustness.",
+      "url": "https://github.com/SoheilGtex/numerical-learning-dynamics"
+    },
+    {
+      "id": "numerical-sine-approximation-matlab",
+      "title": "Numerical Approximation of the Sine Function in MATLAB",
+      "description": "Taylor recurrence, Chebyshev approximation, Clenshaw evaluation and floating-point analysis.",
+      "url": "https://github.com/SoheilGtex/numerical-sine-approximation-matlab"
+    },
+    {
+      "id": "finance-data-pipelines",
+      "title": "Finance Data Pipelines",
+      "description": "Correctness-first time-series ETL and SQLite loading, with deterministic generation and strict validation.",
+      "url": "https://github.com/SoheilGtex/finance-data-pipelines"
+    }
+  ]
+}

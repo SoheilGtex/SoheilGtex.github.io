@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-  <title id="title">Soheil Salmani mark</title>
-  <desc id="desc">A branching pipeline symbol in a coral square.</desc>
-  <rect width="64" height="64" fill="#df5a3d"/>
-  <path d="M18 17v18c0 6.075 4.925 11 11 11h17M18 35h16c6.075 0 11-4.925 11-11v-7M18 35h16c6.075 0 11 4.925 11 11v0" fill="none" stroke="#18201f" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
-  <circle cx="18" cy="17" r="5" fill="#f2efe8"/>
-  <circle cx="46" cy="17" r="5" fill="#f2efe8"/>
-  <circle cx="46" cy="46" r="5" fill="#f2efe8"/>
-</svg>
