@@ -125,8 +125,9 @@ async function initialize() {
       $('record-evidence-date').textContent='Record updated: '+new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(date);
     }
     const summary=summarize(view.courses),working=workingSummary(record);
-    const gpa=$('overall-gpa');gpa.replaceChildren(document.createTextNode(working.gpa==null?'Not available':working.gpa.toFixed(2)));
-    if(working.gpa!=null)gpa.append(create('span','gpa-denominator','/ 20'));
+    const cumulative=typeof record.reported_cumulative_gpa==='number'?record.reported_cumulative_gpa:working.gpa;
+    const gpa=$('overall-gpa');gpa.replaceChildren(document.createTextNode(cumulative==null?'Not available':cumulative.toFixed(2)));
+    if(cumulative!=null)gpa.append(create('span','gpa-denominator','/ 20'));
     const relevant=$('relevant-gpa');
     relevant.replaceChildren(document.createTextNode(summary.gpa==null?'Not available':summary.gpa.toFixed(2)));
     if(summary.gpa!=null)relevant.append(create('span','gpa-denominator','/ 20'));
@@ -137,7 +138,7 @@ async function initialize() {
       $('ta-course-list').textContent=teaching.courses.join(' · ');
       $('ta-meta').textContent=[teaching.institution,[teaching.start,teaching.end].filter(Boolean).join(' - ')].filter(Boolean).join(' · ');
     }
-    $('completed-credits').textContent=String(summary.completedCredits);
+    $('completed-credits').textContent=String(record.total_passed_credits ?? summary.completedCredits);
     renderMap();renderCoursework();initTabs();$('static-record').hidden=true;
     document.documentElement.dataset.academicReady='true';
   } catch(error) {

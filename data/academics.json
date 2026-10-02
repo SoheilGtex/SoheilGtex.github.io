@@ -6,7 +6,9 @@
     "degree": "B.Sc. in Mathematics and Applications",
     "institution": "Kharazmi University",
     "start": "Oct 2024",
-    "cs_direction": "Computer Science secondary track"
+    "cs_direction": "Minor in Computer Science",
+    "minor": "Computer Science",
+    "minor_note": "I chose the Computer Science minor out of personal interest and ranked among the top three in the selection."
   },
   "record_type": "Student-provided working record, not an official transcript",
   "gpa_scale": 20,
@@ -14,7 +16,7 @@
     "base": "Base courses",
     "core": "Core mathematics",
     "mathematics_elective": "Mathematics elective",
-    "cs_secondary": "CS secondary track",
+    "cs_secondary": "Computer Science minor",
     "general": "General courses",
     "outside_chart": "Outside degree chart",
     "interest_only": "Interest-driven study outside the curriculum"
@@ -372,7 +374,7 @@
     },
     {
       "id": "mathematics-laboratory-i",
-      "title": "Mathematics Laboratory I",
+      "title": "MATLAB I",
       "title_fa": "آزمایشگاه ریاضی ۱",
       "credits": 1,
       "grade": 20.0,
@@ -561,7 +563,7 @@
     {
       "id": "matlab-ii",
       "title": "MATLAB II",
-      "title_fa": "متلب ۲",
+      "title_fa": "آزمایشگاه ریاضی ۲",
       "semester": null,
       "status": "planned",
       "prerequisites": [],
@@ -654,7 +656,8 @@
         "grade": null,
         "semester": null,
         "category": "mathematics_elective"
-      }
+      },
+      "title_fa": "مبانی هندسه دیفرانسیل"
     },
     {
       "id": "abstract-algebra-i",
@@ -677,7 +680,8 @@
         "grade": null,
         "semester": null,
         "category": "core"
-      }
+      },
+      "title_fa": "جبر ۱"
     },
     {
       "id": "operations-research",
@@ -727,7 +731,8 @@
         "grade": null,
         "semester": null,
         "category": "mathematics_elective"
-      }
+      },
+      "title_fa": "بهینه‌سازی غیرخطی"
     },
     {
       "id": "general-topology",
@@ -826,7 +831,8 @@
         "grade": null,
         "semester": null,
         "category": "cs_secondary"
-      }
+      },
+      "title_fa": "پایگاه داده‌ها"
     },
     {
       "id": "machine-learning",
@@ -849,7 +855,8 @@
         "grade": null,
         "semester": null,
         "category": "cs_secondary"
-      }
+      },
+      "title_fa": "یادگیری ماشین"
     },
     {
       "id": "artificial-intelligence",
@@ -923,7 +930,8 @@
         "grade": null,
         "semester": null,
         "category": "mathematics_elective"
-      }
+      },
+      "title_fa": "بهینه‌سازی پویا"
     },
     {
       "id": "coding-theory",
@@ -946,7 +954,8 @@
         "grade": null,
         "semester": null,
         "category": "mathematics_elective"
-      }
+      },
+      "title_fa": "نظریه کدگذاری"
     },
     {
       "id": "distributed-systems",
@@ -969,7 +978,8 @@
         "grade": null,
         "semester": null,
         "category": "interest_only"
-      }
+      },
+      "title_fa": "سیستم‌های توزیع‌شده"
     },
     {
       "id": "foundations-of-fourier-analysis-and-wavelets",
@@ -992,7 +1002,8 @@
         "grade": null,
         "semester": null,
         "category": "interest_only"
-      }
+      },
+      "title_fa": "مبانی آنالیز فوریه و موجک‌ها"
     },
     {
       "id": "mathematical-modeling",
@@ -1015,7 +1026,8 @@
         "grade": null,
         "semester": null,
         "category": "interest_only"
-      }
+      },
+      "title_fa": "مدل‌سازی ریاضی"
     },
     {
       "id": "introduction-to-game-theory",
@@ -1038,7 +1050,8 @@
         "grade": null,
         "semester": null,
         "category": "interest_only"
-      }
+      },
+      "title_fa": "مقدمه‌ای بر نظریه بازی‌ها"
     },
     {
       "id": "introduction-to-data-mining",
@@ -1061,7 +1074,8 @@
         "grade": null,
         "semester": null,
         "category": "interest_only"
-      }
+      },
+      "title_fa": "مقدمه‌ای بر داده‌کاوی"
     },
     {
       "id": "graph-theory",
@@ -1084,7 +1098,8 @@
         "grade": null,
         "semester": null,
         "category": "interest_only"
-      }
+      },
+      "title_fa": "نظریه گراف"
     },
     {
       "id": "probability-i",
@@ -1107,7 +1122,8 @@
         "grade": null,
         "semester": null,
         "category": "interest_only"
-      }
+      },
+      "title_fa": "احتمال ۱"
     },
     {
       "id": "stochastic-processes",
@@ -1130,7 +1146,8 @@
         "grade": null,
         "semester": null,
         "category": "interest_only"
-      }
+      },
+      "title_fa": "فرآیندهای تصادفی"
     },
     {
       "id": "islamic-revolution-of-iran",
@@ -1205,7 +1222,7 @@
   ],
   "display_scope": {
     "method": "profile_visible_boolean",
-    "description": "Coursework shown here focuses on mathematically, computationally and application-relevant study. General university requirements are omitted; General English is retained.",
+    "description": "Selected mathematics, computing and supporting coursework. General requirements are omitted, except General English.",
     "relevant_average_method": "credit_weighted_profile_visible_completed_graded"
   },
   "source_history": {
@@ -1262,5 +1279,8 @@
       "Statistical Methods",
       "MATLAB II"
     ]
-  }
+  },
+  "reported_cumulative_gpa": 18.04,
+  "total_passed_credits": 69,
+  "reported_cumulative_gpa_note": "Student-reported current cumulative GPA"
 }
